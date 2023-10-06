@@ -1,0 +1,39 @@
+#chr_phone {
+  width: 48.88vh;
+  height: 87vh;
+  /* position: absolute; */
+  top: 0;
+  right: 10px;
+  margin: auto;
+}
+.chr_phone_content {
+  width: 100%;
+  height: 100%;
+}
+#chr_phone > div > button {
+  font-size: 12.5px;
+  padding: 3px 6px;
+}
+#mobile_overview {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 8px;
+  border-radius: 30px;
+  background-color: #00c8bf;
+  border: 1px solid #c5c5c5;
+  box-shadow: 1px 1px 1px #fff2f2;
+}
+#phone-bar {
+  left: 24px;
+  position: relative;
+  top: calc(-1 * 87vh + 9px);
+  width: calc(48.88vh - 48px);
+  height: calc(87vh - 24px);
+  border-radius: 20px;
+  color: white;
+  display: block;
+  pointer-events: none;
+  user-select: none;
+  font-size: 1.5vh;
+}
